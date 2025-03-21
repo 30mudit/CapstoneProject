@@ -1,0 +1,17 @@
+.scrum-container {
+    padding: 20px;
+    background: #f8f9fa;
+    min-height: 100vh;
+}
+
+.scrum-card {
+    border-radius: 10px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.scrum-title {
+    font-weight: bold;
+    color: #007bff;
+}

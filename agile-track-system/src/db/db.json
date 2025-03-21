@@ -1,0 +1,294 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Raj Kumar",
+      "email": "raj@kumar.com",
+      "password": "adminpass",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Anuj Kumar",
+      "email": "anuj@kumar.com",
+      "password": "password1",
+      "role": "employee"
+    },
+    {
+      "id": "3",
+      "name": "Rahul Kumar",
+      "email": "rahul@kumar.com",
+      "password": "password2",
+      "role": "employee"
+    },
+    {
+      "name": "Vikas Kumar",
+      "email": "vikas@kumar.com",
+      "password": "password3",
+      "role": "employee",
+      "id": "4"
+    },
+    {
+      "id": "b911",
+      "name": "Mudit Jain",
+      "email": "mudit@gmail.com",
+      "password": "1234567",
+      "role": "employee"
+    },
+    {
+      "id": "bc0d",
+      "name": "Gagan",
+      "email": "gagan12@gmail.com",
+      "password": "Pass@123",
+      "role": "employee"
+    },
+    {
+      "id": "87ce",
+      "name": "ganesh",
+      "email": "ganesh@gmail.com",
+      "password": "user123",
+      "role": "employee"
+    },
+    {
+      "id": "712a",
+      "name": "Mudit",
+      "email": "mudit23@gmail.com",
+      "password": "Pass@123",
+      "role": "employee"
+    }
+  ],
+  "scrums": [
+    {
+      "id": "1",
+      "name": "Scrum Team A"
+    },
+    {
+      "id": "2",
+      "name": "Scrum Team B"
+    },
+    {
+      "name": "Scrum Team C",
+      "id": "3"
+    },
+    {
+      "id": "3f5e",
+      "name": "Team 1"
+    },
+    {
+      "id": "ae98",
+      "name": "Team 2"
+    },
+    {
+      "id": "b112",
+      "name": "Team Wipro"
+    },
+    {
+      "id": "01f7",
+      "name": "Team Gagan"
+    },
+    {
+      "id": "69b0",
+      "name": "Capgemini"
+    },
+    {
+      "id": "50db",
+      "name": "Wipro Elite"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Task One",
+      "description": "Description for Task One",
+      "status": "Done",
+      "scrumId": 1,
+      "assignedTo": 2,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-01"
+        },
+        {
+          "status": "Done",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-19"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Task Two",
+      "description": "Description for Task Two",
+      "status": "Done",
+      "scrumId": 2,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-02"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-07-03"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-18"
+        }
+      ]
+    },
+    {
+      "title": "Task 3",
+      "description": "Description for Task 3",
+      "status": "Done",
+      "scrumId": 3,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-20"
+        }
+      ],
+      "id": "3"
+    },
+    {
+      "id": "1e3d",
+      "title": "Dev",
+      "description": "Frontend",
+      "status": "Done",
+      "scrumId": "3f5e",
+      "assignedTo": "b911",
+      "history": [
+        {
+          "status": "Done",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-20"
+        }
+      ]
+    },
+    {
+      "id": "41ab",
+      "title": "React",
+      "description": "NPM",
+      "status": "Done",
+      "scrumId": "ae98",
+      "assignedTo": "4",
+      "history": [
+        {
+          "status": "Done",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-19"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-20"
+        }
+      ]
+    },
+    {
+      "id": "8d55",
+      "title": "AA",
+      "description": "Wipro",
+      "status": "Done",
+      "scrumId": "b112",
+      "assignedTo": "b911",
+      "history": [
+        {
+          "status": "Done",
+          "date": "2025-03-19"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-19"
+        }
+      ]
+    },
+    {
+      "id": "2565",
+      "title": "Capstone Project",
+      "description": "Agile Tracking System",
+      "status": "Done",
+      "scrumId": "01f7",
+      "assignedTo": "bc0d",
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2025-03-20"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-20"
+        }
+      ]
+    },
+    {
+      "id": "13dd",
+      "title": "TransitHive - Booking Assignement",
+      "description": "as a vendor i shoukd be able to see the all bookings listed in my city to accept the booking ",
+      "status": "In Progress",
+      "scrumId": "69b0",
+      "assignedTo": "87ce",
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2025-03-21"
+        }
+      ]
+    },
+    {
+      "id": "b778",
+      "title": "Project",
+      "description": "Agile Tracking System",
+      "status": "To Do",
+      "scrumId": "50db",
+      "assignedTo": "712a",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-21"
+        }
+      ]
+    }
+  ]
+}
