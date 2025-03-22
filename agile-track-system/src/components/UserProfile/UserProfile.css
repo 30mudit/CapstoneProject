@@ -1,0 +1,210 @@
+/* 🔹 User Profile Container */
+.user-profile-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 🔹 Header */
+.user-profile-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* 🔹 Add User Button */
+.add-user-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    display: block;
+    margin: 15px auto;
+    transition: 0.3s;
+}
+
+.add-user-button:hover {
+    background-color: #0056b3;
+}
+
+/* 🔹 Form Styling */
+.user-form {
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.user-form div {
+    margin-bottom: 18px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    display: block;
+    margin-bottom: 6px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* 🔹 Create User Button */
+.create-user-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.create-user-button:hover {
+    background-color: #218838;
+}
+
+/* 🔹 User List */
+.user-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.user-item {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-item strong {
+    color: #333;
+    font-size: 16px;
+}
+
+/* 🔹 Get History & Delete Buttons */
+.history-button {
+    background-color: #007bff;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.history-button:hover {
+    background-color: #0056b3;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+/* 🔹 Task List */
+.task-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 🔹 Task Status Colors */
+.task-status {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.task-status.to-do {
+    color: white;
+    background-color: red;
+}
+
+.task-status.in-progress {
+    color: black;
+    background-color: yellow;
+}
+
+.task-status.done {
+    color: white;
+    background-color: green;
+}
+
+/* 🔹 Task History */
+.task-history {
+    margin-top: 15px;
+}
+
+.task-history h5 {
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.task-history ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-history li {
+    font-size: 14px;
+    padding: 6px;
+    background: #f4f4f4;
+    margin-top: 5px;
+    border-radius: 6px;
+}
